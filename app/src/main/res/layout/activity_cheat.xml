@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cheat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.seanippolito.geoquiz.CheatActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/warning_text"/>
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text=""
+        tools:ignore="HardcodedText"/>
+
+    <Button
+        android:id="@+id/show_answer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_answer_button"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <TextView
+        android:id="@+id/device_api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API Level"
+        tools:ignore="HardcodedText"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/attempts_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"/>
+
+
+</LinearLayout>
